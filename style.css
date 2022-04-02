@@ -1,0 +1,55 @@
+:root {
+  --background: rgb(221, 219, 219);
+  --text: black;
+  --red: red; 
+}
+
+@media screen and (max-width: 540px) {
+  .container {
+    margin-top: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    display: inline;
+  }
+}
+
+html {
+  color: var(--text);
+  background-color: var(--background);
+  font-family: sans-serif, monospace; 
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30vh;
+  margin-left: 15vw;
+  margin-right: 15vh;
+  gap: 10px;
+}
+
+.top {
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 0;
+}
+
+.middle {
+  display: flex;
+  gap: 10px;
+}
+
+.bottom {
+  font-size: 25px;
+  font-weight: bold;    
+  color: var(--red);
+}
+
+input {
+  width: 300px;
+  height: 25px;
+}
+
+
+
